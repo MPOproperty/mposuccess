@@ -1,0 +1,59 @@
+#datatable_entities tbody td:last-of-type {
+    text-align: center;
+}
+
+#datatable_entities tbody td a.btn.default:not(:last-child){
+    margin-bottom: 5px;
+}
+
+#datatable_entities tbody td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#datatable_entities .thumbnail {
+    max-height: 150px;
+    max-width: 150px;
+    margin: 0 auto;
+    margin-bottom: 0 !important;
+}
+
+#datatable_entities .thumbnail > img {
+    max-height: 140px;
+}
+
+
+.modal-body.view {
+    padding-bottom: 7px;
+}
+/*
+.modal-body.view .form .form-row-seperated .form-group {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}*/
+
+.modal-body.view div.portlet {
+    margin-bottom: 0;
+}
+
+.modal-footer a,
+.modal-footer a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.margin-bottom-5 {
+    display: inline-block;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.thumbnail > span.glyphicon-remove {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    cursor: pointer;
+    color: grey;
+}

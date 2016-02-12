@@ -1,0 +1,21 @@
+.profile-info h1 {
+    margin-bottom: 20px;
+}
+
+.profile-info .list-unstyled li {
+    margin-bottom: 15px;
+}
+
+.profile-info .list-unstyled li img {
+    vertical-align: inherit;
+}
+
+.profile-nav img {
+    margin: 0 auto;
+}
+
+.profile-nav .messageButton {
+    margin: 15px auto;
+    display: block;
+    max-width: 100px;
+}

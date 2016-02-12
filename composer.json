@@ -1,0 +1,37 @@
+{
+    "name": "mpoproperty/mposuccess",
+    "description": "Подготовительная программа на покупку недвижимости",
+    "keywords": [
+        "laravel",
+        "Program",
+        "MPO",
+        "property",
+        "administrator"
+    ],
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Admin",
+            "email": "admin@mpouspehm.ru"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "php": ">=5.5.9",
+		"frozennode/administrator": "v5.0.3",
+        "bican/roles": "2.1.7"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~4.0",
+        "phpspec/phpspec": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MPOproperty\\Mposuccess\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+
+}

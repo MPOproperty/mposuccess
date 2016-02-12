@@ -1,0 +1,12 @@
+#datatable_notifications tbody td:last-of-type {
+    text-align: center;
+}
+
+#datatable_notifications tbody td a.btn.default:not(:last-child){
+    margin-bottom: 5px;
+}
+
+#datatable_notifications tbody td {
+    vertical-align: middle;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+.relative {
+    position: relative;
+}
+
+.relative .popover {
+    left: 0 !important;
+}
+
+td a.btn.default:not(:last-child){
+    margin-bottom: 5px;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+.loading-delete,
+.loading-delete:hover,
+.loading-save,
+.loading-save:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+#errors {
+    color: #a94442;
+}
+
+#errors div {
+    margin-bottom: 5px;
+}
+
+#errors div:last-of-type {
+    margin-bottom: 20px;
+}
+
+.thumbnail {
+    margin-bottom: 0;
+    box-sizing: content-box;
+}
+
+.thumbnail > img {
+    max-height: 100%;
+}
