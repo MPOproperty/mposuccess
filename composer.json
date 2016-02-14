@@ -1,0 +1,44 @@
+{
+    "name": "mpoproperty/mpouspehm",
+    "description": "Подготовительная программа",
+    "keywords": [
+        "laravel",
+        "Program",
+        "MPO",
+        "property",
+        "administrator"
+    ],
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Админ",
+            "email": "admin@mpouspehm.ru"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "php": ">=5.5.9",
+        "barryvdh/laravel-ide-helper": "v2.1.0",
+        "barryvdh/laravel-debugbar": "v2.0.5",
+        "frozennode/administrator": "v5.0.3",
+        "bican/roles": "2.1.7"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~4.0",
+        "phpspec/phpspec": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MPOproperty\\Mpouspehm": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MPOproperty\\Tests\\Mpouspehm": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+
+}
