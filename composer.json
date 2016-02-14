@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MPOproperty\\Mpouspehm": "src/"
+            "MPOproperty\\Mpouspehm\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MPOproperty\\Tests\\Mpouspehm": "tests/"
+            "MPOproperty\\Tests\\Mpouspehm\\": "tests/"
         }
     },
     "minimum-stability": "dev"
