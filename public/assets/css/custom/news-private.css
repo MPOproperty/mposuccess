@@ -1,0 +1,20 @@
+.blog-img img {
+    margin: 0 auto;
+}
+
+.blog-page li i {
+    color: #78cff8;
+}
+
+.blog-page hr {
+    margin-top: 0 !important;
+}
+
+h2 {
+    padding-left: 30px;
+}
+
+#perPage {
+    width: 60px;
+    float: right;
+}
