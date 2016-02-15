@@ -1,0 +1,26 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use MPOproperty\Mpouspehm\Models\TypeConclusion;
+
+class TypeConclusionSeeder extends Seeder
+{
+    public function run()
+    {
+        TypeConclusion::create([
+            'name'  => 'VISA, MasterCard',
+            'description'  => '',
+        ]);
+
+        TypeConclusion::create([
+            'name'  => 'WebMoney',
+            'description'  => '',
+        ]);
+
+        TypeConclusion::create([
+            'name'  => 'Яндекс.Деньги',
+            'description'  => '',
+        ]);
+    }
+
+}
